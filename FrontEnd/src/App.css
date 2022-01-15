@@ -1,0 +1,98 @@
+body{
+  background-color: blueviolet;
+}
+.Allsong{
+  color: rgb(243, 76, 85);
+  width: 100%;
+}
+.Allsong h4{
+  color: rgb(145, 247, 11);
+}
+#data{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#button-1{
+  margin-top: 50px;
+}
+
+#button-1 button{
+  margin-left: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+#nav{
+  margin: auto;
+  width: auto;
+  height: 100px;
+  background-color: rgb(241, 69, 69);
+  display: grid;
+  grid-template-columns: 2fr 10fr 2fr;
+}
+
+#navbarButton{
+  text-align: center;
+  color: blue;
+}
+
+#navbarButton button{
+  margin-left: 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(219, 217, 217);
+  border: none;
+  border-radius: 2px;
+}
+
+.songsItem{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 300px;
+  padding: 2px;
+  width: 1000px;
+  margin-top: 5px;
+}
+
+#songs{
+  text-align: center;
+  color: rgb(102, 203, 243);
+  font-size: 20px;
+}
+
+#songs button{
+  background-color: rgb(25, 235, 235);
+}
+
+#search{
+  margin-left: 550px;
+  margin-top: 20px;
+}
+
+#search input{
+  width: 420px;
+  height: 35px;
+  border-color: teal;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+#btn2{
+  height: 40px;
+  width: 70px;
+  border: none;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+}
